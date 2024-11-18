@@ -5,15 +5,15 @@ y = int(input("Podaj drugą liczbe: "))
 
 if x < y:
     print(f"Pierwsza Liczba: {x}")
-    while x < y:
+    while x <= y:
         print(x)
-        x = x+1
         if x ==  y:
             print(f"Ostatnia liczba: {y}")
+        x = x+1
 else:
     print(f"Pierwsza Liczba: {y}")
-    while y  < x:
+    while y  <= x:
         print(y)
-        y = y + 1
         if y == x:
             print(f"Ostatnia liczba: {x}")
+        y = y + 1

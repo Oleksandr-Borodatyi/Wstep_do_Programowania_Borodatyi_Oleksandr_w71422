@@ -8,9 +8,9 @@ if x < y:
     while x < y:
         if x%2 == 0:
             print(x)
-            if x == y:
-                print(f"Ostatnia liczba: {y}")
         x = x + 1
+        if x == y:
+                print(f"Ostatnia liczba: {y}")
         continue
 
 else:
@@ -18,7 +18,7 @@ else:
     while y  < x:
         if y%2 == 0:
             print(y)
-            if y == x:
-                print(f"Ostatnia liczba: {x}")
         y = y + 1
+        if y == x:
+                print(f"Ostatnia liczba: {x}")
         continue
